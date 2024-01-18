@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "mocha --exit --experimental-specifier-resolution=node --recursive 'test/**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^6.3.0",
+    "mongodb-memory-server": "^9.1.5",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "chai-http": "^4.4.0",
+    "esm": "^3.2.25",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.4",
+    "ts-node": "^10.9.2"
+  }
+}
